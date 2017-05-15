@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
   	msg = Time.now.to_s
   	render html: "Goodbye homie! " + msg
   end
+
+  def hello
+  	render html: "Hola, Mundo™¡£¢∞§¡¶¡•ª¡"
+  end
 end
